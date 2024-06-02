@@ -10,6 +10,6 @@ User-friendly Interface: Displays information in a clear, organized and simplist
 
 -- Technologies Used --<br />
 Java<br />
-JSoup (for web scraping) <br />
+JSoup (for web scraping)<br />
 SQLite<br />
 Android SDK (for mobile app development)
