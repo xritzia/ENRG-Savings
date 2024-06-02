@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors used within the application -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent_white">#FAD8D8D8</color>
+    <color name="grey">#808080</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <!-- Gradient colors -->
+    <color name="gradient_dark">#5557DD</color>
+    <color name="gradient_light">#4A9BFF</color>
+    <color name="gradient_mid">#6C5FEC</color>
+
+    <!-- Invoice class colors-->
+    <color name="class_green">#8C94FD82</color>
+    <color name="class_blue">#8C7E93FF</color>
+    <color name="class_yellow">#8CFDFD7F</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ENRG Savings</string>
+
+    <string name="electricity">Ηλεκτρικό Ρεύμα</string>
+    <string name="gas">Φυσικό Αέριο</string>
+    <string name="domestic">Οικιακό</string>
+    <string name="business">Επαγγελ/κό</string>
+    <string name="main_text">Τι είδους Tιμολόγιο σε ενδιαφέρει;</string>
+    <string name="main_button">Μάθε τις τιμές !</string>
+    <string name="info_button">Πληροφορίες</string>
+    <string name="no_data">Μη διαθέσιμα δεδομένα</string>
+    <string name="mwh">MWh</string>
+    <string name="euro">€</string>
+    <string name="fixed">Πάγιο:</string>
+
+    <!-- Info popup window -->
+    <string name="fixed_discount_condition">Προϋπόθεση Έκπτωσης Παγίου</string>
+    <string name="final_discount_condition">Προϋπόθεση Έκπτωσης Βασικής Προμήθειας</string>
+    <string name="comments_info">Παρατηρήσεις</string>
+    <string name="no_info">Δεν υπάρχουν επιπρόσθετες πληροφορίες</string>
+    <string name="close">Κλείσιμο</string>
+
+    <!-- Data check and failed to gain data popup window -->
+    <string name="data_check">Έλεγχος για νέα τιμολόγια</string>
+    <string name="data_success">Επιτυχής ανανέωση τιμολογίων</string>
+    <string name="data_fail">Αποτυχής ανανέωση τιμολογίων</string>
+    <string name="data_fail_info">Ελέγξτε την σύνδεση σας στο διαδίκτυο. Εάν το πρόβλημα παραμένει, η πηγή άντλησης δεδομένων (ΡΑΑΕΥ) ενδέχεται να αντιμετωπίζει
+        προβλήματα ή να υπόκειται σε αναβάθμιση. Παρακαλώ προσπαθήστε ξανά αργότερα.</string>
+
+    <!-- String array for months -->
+    <string-array name="months_array">
+        <item>Ιανουάριος</item>
+        <item>Φεβρουάριος</item>
+        <item>Μάρτιος</item>
+        <item>Απρίλιος</item>
+        <item>Μάϊος</item>
+        <item>Iούνιος</item>
+        <item>Ιούλιος</item>
+        <item>Αύγουστος</item>
+        <item>Σεπτέμβριος</item>
+        <item>Οκτώβριος</item>
+        <item>Νοέμβριος</item>
+        <item>Δεκέμβριος</item>
+    </string-array>
+
+    <!-- String array for sorting options -->
+    <string-array name="sort_array">
+        <item>Ανά Πάροχο</item>
+        <item>Ανά Χρώμα</item>
+        <item>Τιμή Αύξουσα</item>
+        <item>Τιμή Φθίνουσα</item>
+    </string-array>
+</resources>

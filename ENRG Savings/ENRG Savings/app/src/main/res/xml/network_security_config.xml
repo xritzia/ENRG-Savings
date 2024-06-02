@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Network security configuration file which defines security policy for network communications. -->
+<network-security-config>
+    <!-- Domain-specific configuration for securing network communication within specified domains. -->
+    <domain-config>
+        <!-- Specifies the domain for which this configuration is applied.
+             includeSubdomains="true" ensures the policy applies to all subdomains under invoices.rae.gr. -->
+        <domain includeSubdomains="true">invoices.rae.gr</domain>
+        <!-- Defines trust anchors for certificate validation. -->
+        <trust-anchors>
+            <!-- Specifies a custom certificate located in the raw resource directory for SSL pinning,
+                 ensuring the app communicates only with servers with a matching certificate. -->
+            <certificates src="@raw/rae_certification" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
